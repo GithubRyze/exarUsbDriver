@@ -1,0 +1,190 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "177",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "309"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "200,258",
+                        "endColumns": "57,47",
+                        "endOffsets": "253,301"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,47",
+                        "endOffsets": "108,156"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "3,69,31,30,27,37,11,12,65,70,66,67,39,38,41,40,28,43,45,46,44,8,36,52,53,50,56,57,49,48,77,78,7,6,5,4,63,62,9,10,60,59,72,73,74,75,15,19,34,16,33,21,32,22,20,17,35,14,18,13,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,1,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,1,1,4,4,4,4,4,4,4,4,4,4,1,1,1,1,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "56,3182,1447,1404,1296,1749,471,509,2989,3277,3051,3119,1849,1801,1953,1898,1342,2031,2161,2227,2096,330,1701,2453,2509,2397,2573,2636,2347,2295,3591,3652,280,225,163,111,2914,2838,383,428,2782,2708,3349,3413,3474,3531,649,865,1605,702,1548,980,1495,1039,923,755,1651,598,812,550,1090,1141,1198,1248",
+                        "endColumns": "54,97,47,42,45,51,37,40,61,66,67,57,48,47,72,54,56,64,65,62,64,52,47,55,53,50,62,66,49,51,60,58,49,54,61,51,69,75,44,42,50,73,63,60,56,57,52,57,45,52,56,58,52,50,56,56,49,50,52,47,50,56,49,47",
+                        "endOffsets": "106,3275,1490,1442,1337,1796,504,545,3046,3342,3114,3172,1893,1844,2021,1948,1394,2091,2222,2285,2156,378,1744,2504,2558,2443,2631,2698,2392,2342,3650,3709,325,275,220,158,2979,2909,423,466,2828,2777,3411,3472,3529,3587,697,918,1646,750,1600,1034,1543,1085,975,807,1696,644,860,593,1136,1193,1243,1291"
+                    },
+                    "to": {
+                        "startLines": "83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2630,2685,2783,2831,2874,2920,2972,3010,3051,3113,3183,3251,3309,3358,3406,3479,3534,3591,3656,3722,3785,3850,3903,3951,4007,4061,4112,4175,4242,4292,4344,4408,4470,4520,4575,4637,4689,4753,4823,4868,4911,4962,5036,5103,5167,5227,5288,5341,5399,5445,5498,5555,5614,5667,5718,5775,5832,5882,5933,5986,6034,6085,6142,6192",
+                        "endColumns": "54,97,47,42,45,51,37,40,61,69,67,57,48,47,72,54,56,64,65,62,64,52,47,55,53,50,62,66,49,51,63,61,49,54,61,51,63,69,44,42,50,73,66,63,59,60,52,57,45,52,56,58,52,50,56,56,49,50,52,47,50,56,49,47",
+                        "endOffsets": "2680,2778,2826,2869,2915,2967,3005,3046,3108,3178,3246,3304,3353,3401,3474,3529,3586,3651,3717,3780,3845,3898,3946,4002,4056,4107,4170,4237,4287,4339,4403,4465,4515,4570,4632,4684,4748,4818,4863,4906,4957,5031,5098,5162,5222,5283,5336,5394,5440,5493,5550,5609,5662,5713,5770,5827,5877,5928,5981,6029,6080,6137,6187,6235"
+                    }
+                },
+                {
+                    "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\values\\array.xml",
+                    "from": {
+                        "startLines": "3,46,30,56,52,35,42",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "56,1237,804,1519,1406,935,1129",
+                        "endLines": "29,51,34,61,55,41,45",
+                        "endColumns": "19,19,19,19,19,19,19",
+                        "endOffsets": "799,1401,930,1705,1514,1124,1232"
+                    },
+                    "to": {
+                        "startLines": "2,29,35,40,46,50,57",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,803,972,1103,1294,1407,1601",
+                        "endLines": "28,34,39,45,49,56,60",
+                        "endColumns": "19,19,19,19,19,19,19",
+                        "endOffsets": "798,967,1098,1289,1402,1596,1704"
+                    }
+                },
+                {
+                    "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\values\\color.xml",
+                    "from": {
+                        "startLines": "11,20,15,17,18,4,7,14,12,10,16,8,19,9,5,6,13,2,3",
+                        "startColumns": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+                        "startOffsets": "388,717,533,605,642,127,239,496,424,350,569,275,679,312,166,201,460,52,89",
+                        "endColumns": "35,36,35,36,36,38,35,36,35,37,35,36,37,37,34,37,35,36,37",
+                        "endOffsets": "422,752,567,640,677,164,273,531,458,386,603,310,715,348,199,237,494,87,125"
+                    },
+                    "to": {
+                        "startLines": "61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1709,1748,1788,1827,1867,1907,1949,1988,2028,2067,2108,2147,2187,2228,2269,2307,2348,2387,2427",
+                        "endColumns": "38,39,38,39,39,41,38,39,38,40,38,39,40,40,37,40,38,39,40",
+                        "endOffsets": "1743,1783,1822,1862,1902,1944,1983,2023,2062,2103,2142,2182,2223,2264,2302,2343,2382,2422,2463"
+                    }
+                },
+                {
+                    "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15,26,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "186,510,1028,675",
+                        "endLines": "12,17,28,25",
+                        "endColumns": "12,12,9,12",
+                        "endOffsets": "472,665,1146,1023"
+                    },
+                    "to": {
+                        "startLines": "147,154,157,160",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "6240,6531,6691,6814",
+                        "endLines": "153,156,159,166",
+                        "endColumns": "12,12,9,12",
+                        "endOffsets": "6526,6686,6809,7162"
+                    }
+                },
+                {
+                    "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "89,147,203",
+                        "endColumns": "57,55,47",
+                        "endOffsets": "142,198,246"
+                    },
+                    "to": {
+                        "startLines": "80,81,82",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "2468,2526,2582",
+                        "endColumns": "57,55,47",
+                        "endOffsets": "2521,2577,2625"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\values-sw600dp-v13_values-sw600dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "from": {
+                        "startLines": "7,8",
+                        "startColumns": "1,4",
+                        "startOffsets": "184,242",
+                        "endColumns": "54,47",
+                        "endOffsets": "237,285"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,47",
+                        "endOffsets": "108,156"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "220",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "366"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        }
+    ]
+}

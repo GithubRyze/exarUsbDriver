@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 0x04E2 / 0x1411: EXAR USAB UART -->
+    <usb-device vendor-id="1250" product-id="5136" />
+     <usb-device vendor-id="1250" product-id="5137" />
+     <usb-device vendor-id="1250" product-id="5138" />
+     <usb-device vendor-id="1250" product-id="5140" />
+     <usb-device vendor-id="1250" product-id="5156" />
+     <usb-device vendor-id="1250" product-id="5156" />
+     <usb-device vendor-id="1250" product-id="5152" />
+     <usb-device vendor-id="1250" product-id="5154" />
+     <usb-device vendor-id="1250" product-id="5120" />
+     <usb-device vendor-id="1250" product-id="5121" />
+     <usb-device vendor-id="1250" product-id="5122" />
+     <usb-device vendor-id="1250" product-id="5123" />
+</resources>

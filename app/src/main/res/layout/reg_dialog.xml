@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" >
+
+        <RadioButton
+            android:id="@+id/rb_regwrite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/label_rb_regwrite"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@+id/rb_regRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_rb_regread"
+            android:onClick="onRadioButtonClicked" />
+
+    </RadioGroup>
+
+  
+    <EditText
+        android:id="@+id/edit_regaddr"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/radioGroup1"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/radioGroup1"
+        android:digits="0123456789ABCDEF"
+        android:hint="@string/hint_edittext_offset"
+        android:imeOptions="actionDone"
+        android:inputType="textCapCharacters|textNoSuggestions"
+        android:maxLength="10"
+        android:singleLine="true" />
+    
+    <EditText
+        android:id="@+id/edit_regvalue"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edit_regaddr"
+        android:layout_alignBottom="@+id/edit_regaddr"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/edit_regaddr"
+        android:digits="0123456789ABCDEF"
+        android:hint="@string/hint_edittext_value"
+        android:imeOptions="actionDone"
+        android:inputType="textCapCharacters|textNoSuggestions"
+        android:maxLength="10"
+        android:singleLine="true" />
+    
+    
+    <TextView
+        android:id="@+id/tv_regValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/edit_regaddr"
+        android:layout_alignBottom="@+id/edit_regaddr"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/edit_regaddr"
+        android:visibility="invisible"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:text="@string/hint_edittext_value" />
+    
+
+    <Button
+        android:id="@+id/btn_reg_rw"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBottom="@+id/edit_regvalue"
+        android:layout_toRightOf="@id/edit_regvalue"
+        android:onClick="onRegRWClicked"
+        android:text="@string/label_btn_regrw" />
+
+
+</RelativeLayout>

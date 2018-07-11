@@ -1,0 +1,426 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+  <!--   <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/desc"
+        android:onClick="onLogoClick"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentRight="true"
+        android:text="@string/text_title"
+        android:textSize="20sp" /> -->
+
+    <TextView
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_settings"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/settings"
+        android:background="#006699" />
+    <TextView
+        android:id="@+id/text_channel_sel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line1"
+        android:text="@string/text_channel_bits" />
+                
+       
+    <Spinner
+        android:id="@+id/spin_channel_sel"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_channel_sel"
+        android:entries="@array/channel_bits_array" >
+    </Spinner>
+    
+    <TextView
+        android:id="@+id/text_baud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/text_channel_sel"
+        android:layout_toRightOf="@id/spin_channel_sel"
+        android:layout_marginLeft="25dp"
+        android:text="@string/text_baud_rate" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autocomplete_baud"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_baud"
+        android:layout_alignLeft="@+id/text_baud"
+        android:layout_alignBottom="@id/spin_channel_sel"
+        android:layout_toRightOf="@id/spin_channel_sel"
+        android:ems="10"
+        android:imeOptions="actionDone"
+        android:inputType="number"
+        android:maxLength="8"
+        android:singleLine="true"
+        android:text="@string/default_baudrate" >
+
+    </AutoCompleteTextView>
+
+    <TextView
+        android:id="@+id/text_data_bits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/text_baud"
+        android:layout_alignLeft="@+id/spin_data_bits"
+        android:layout_toRightOf="@id/text_baud"
+        android:text="@string/text_data_bits" />
+
+    <Spinner
+        android:id="@+id/spin_data_bits"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/autocomplete_baud"
+        android:layout_toRightOf="@+id/autocomplete_baud"
+        android:layout_below="@id/text_data_bits"
+        android:layout_marginLeft="25dp"
+        android:entries="@array/data_bits_array" >
+    </Spinner>
+
+    <TextView
+        android:id="@+id/text_parity_bits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/text_data_bits"
+        android:layout_alignLeft="@+id/spin_parity_bits"
+        android:layout_toRightOf="@id/text_data_bits"
+        android:layout_marginLeft="25dp"
+        android:text="@string/text_parity_bits" />
+
+    <Spinner
+        android:id="@+id/spin_parity_bits"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spin_data_bits"
+        android:layout_toRightOf="@+id/spin_data_bits"
+        android:layout_below="@id/text_parity_bits"
+        android:layout_marginLeft="25dp"
+        android:entries="@array/parity_bits_array" >
+    </Spinner>
+
+    <TextView
+        android:id="@+id/text_stop_bits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/text_parity_bits"
+        android:layout_alignLeft="@+id/spin_stop_bits"
+        android:layout_toRightOf="@id/text_parity_bits"
+        android:text="@string/text_stop_bits" />
+
+    <Spinner
+        android:id="@+id/spin_stop_bits"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spin_parity_bits"
+        android:layout_toRightOf="@+id/spin_parity_bits"
+        android:layout_below="@id/text_stop_bits"
+        android:layout_marginLeft="25dp"
+        android:entries="@array/stop_bits_array" >
+    </Spinner>
+
+ 
+    <!--
+    <TextView
+        android:id="@+id/text_low_latency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spin_baud"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_low_latency"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/spin_low_latency"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_low_latency"
+        android:entries="@array/low_latency_array" >
+    </Spinner>
+    -->
+
+    <TextView
+        android:id="@+id/text_flow_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/autocomplete_baud"
+        android:layout_marginTop="8dp"
+        android:text="@string/text_flow_control" />
+
+    <Spinner
+        android:id="@+id/spin_flow_control"
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_flow_control"
+        android:entries="@array/flow_control_array" >
+    </Spinner>
+
+    <CheckBox
+        android:id="@+id/checkbox_loopback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/spin_flow_control"
+        android:layout_alignLeft="@id/spin_parity_bits"
+        android:text="@string/text_loopback" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spin_flow_control"
+        android:layout_marginTop="20dp"
+        android:text="@string/text_device_info"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/status"
+        android:background="#006699" />
+
+    <TextView
+        android:id="@+id/productDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line3"
+        android:clickable="true"
+        android:onClick="onInfoClick"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/deviceInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/productDesc"
+        android:clickable="true"
+        android:onClick="onInfoClick"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/functions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deviceInfo"
+        android:layout_marginTop="20dp"
+        android:text="@string/text_functions"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/functions"
+        android:background="#006699" />
+
+    <ToggleButton
+        android:id="@+id/toggleConnect"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line2"
+        android:layout_marginTop="5dp"
+        android:onClick="onBeginClick"
+        android:textSize="16sp"
+        android:textOff="@string/toggle_connect"
+        android:textOn="@string/toggle_disconnect" />
+
+    <Button
+        android:id="@+id/btnWrite"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toggleConnect"
+        android:layout_marginTop="5dp"
+        android:onClick="onWriteClick"
+        android:text="@string/button_write" />
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnWrite"
+        android:layout_toRightOf="@+id/btnWrite"
+        android:gravity="top|left"
+        android:imeOptions="actionDone"
+        android:inputType="textNoSuggestions|textMultiLine"
+        android:maxLines="1"
+        android:minLines="1"
+        android:maxLength="40"
+        android:text="@string/edit_text" >
+    </EditText>
+    
+
+    <CheckBox
+        android:id="@+id/checkbox_continuous_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/btnWrite"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/edit_text"
+        android:text="@string/label_cb_cont_send" />
+    
+    <CheckBox
+        android:id="@+id/checkbox_send_u"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toggleConnect"
+        android:layout_alignLeft="@id/checkbox_continuous_send"
+        android:text="@string/label_cb_cont_send_u" />
+
+    <!--
+    <Button
+        android:id="@+id/btnRun"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edit_text"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/edit_text"
+        android:onClick="onRunClick"
+        android:padding="15dp"
+        android:text="@string/button_run" />
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnWrite"
+        android:layout_marginTop="5dp"
+        android:onClick="onReadClick"
+        android:padding="15dp"
+        android:text="@string/button_read" />    -->
+
+    <TextView
+        android:id="@+id/console"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnWrite"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_console"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_receive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/vertLine"
+        android:layout_below="@id/btnWrite"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_receive"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/line4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/console"
+        android:layout_marginTop="3dp"
+        android:background="#006699" />
+    <!--
+    <TextView
+        android:id="@+id/tvTransmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line4"
+        android:textSize="16sp"
+        android:text="" />    -->
+    <!--
+    <TextView
+        android:id="@+id/tvReceive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line4"
+        android:textSize="16sp"
+        android:text="" />    -->
+    <!--
+    <TextView
+        android:id="@+id/tvRun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line4"
+        android:textSize="16sp"
+        android:text="" />    -->
+
+    <ScrollView
+        android:id="@+id/scroller"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line4" >
+
+        <TextView
+            android:id="@+id/tvMonitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""/>
+    </ScrollView>
+
+    <View
+        android:id="@+id/vertLine"
+        android:layout_width="1dp"
+        android:layout_height="fill_parent"
+        android:layout_alignRight="@+id/scroller"
+        android:layout_below="@+id/line4"
+        android:background="#006699" />
+
+    <ScrollView
+        android:id="@+id/scrollerRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/vertLine"
+        android:layout_below="@+id/line4" >
+
+        <TextView
+            android:id="@+id/tvMonitorRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginLeft="5dp"/>
+    </ScrollView>
+
+    <CheckBox
+        android:id="@+id/hex_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/console"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/console"
+        android:text="@string/hex_output" />
+
+    <CheckBox
+        android:id="@+id/hex_receive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/text_receive"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/text_receive"
+        android:text="@string/hex_output" />
+    
+    <View
+        android:id="@+id/line7"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#006699" />
+</RelativeLayout>

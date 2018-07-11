@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">USB UART(VER .1D)</string>
+    <string name="menu_sendfile">Send File</string>
+    <string name="menu_regwrite">Register Read/Write</string>
+    <string name="menu_regread">Register Read</string>
+    <string name="menu_about">About EXAR</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="radio_fc_off">Off</string>
+    <string name="radio_fc_on">On</string>
+    <string name="desc">Logo</string>
+    <string name="desc1">Folder</string>
+    <string name="text_title">USB UART</string>
+    <string name="text_settings">SETTINGS</string>
+    <string name="text_baud_rate">Baud Rate</string>
+    <string name="text_data_bits">Data Bits</string>
+    <string name="text_parity_bits">Parity Bits</string>
+    <string name="text_stop_bits">Stop Bits</string>
+    <string name="text_channel_bits">Serial Port</string>
+    <string name="text_low_latency">Low Latency</string>
+    <string name="text_flow_control">Flow Control</string>
+    <string name="text_loopback">Loopback</string>
+    <string name="toggle_connect">Connect</string>
+    <string name="toggle_disconnect">Disconnect</string>
+    <string name="toggle_start">Start Tx</string>
+    <string name="toggle_stop">Stop Tx</string>
+    <string name="button_write">Send</string>
+    <string name="edit_text">Exar USB UART Test</string>
+    
+    <string name="button_run">Run</string>
+    <string name="button_read">Receive</string>
+    <string name="text_functions">FUNCTIONS</string>
+    <string name="text_device_info">DEVICE INFO</string>
+    <string name="text_console">SENT</string>
+    <string name="text_receive">RECEIVED</string>
+    <string name="hex_output">Hex Mode</string>
+    <string name="default_baudrate">115200</string>
+    <string name="dialog_confirm">Exit</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_title">EXAR USB UART</string>
+    <string name="dialog_desc">Exit Exar UART Test Application?</string>
+    
+    <string name="fc_back_button_description">Step back</string>
+    <string name="fc_home_button_description">Step back</string>
+    <string name="fc_close_button_description">Step back</string>
+    <string name="fc_file_icon_description">Item icon</string>
+    
+    <string name="label_rb_regwrite">Write</string>
+    <string name="label_rb_regread">Read</string>
+    <string name="label_btn_regrw">Select</string>
+    
+    <string name="hint_edittext_offset">Offset</string>
+    <string name="hint_edittext_value">Value</string>
+    
+    
+    <string name="label_cb_cont_send">Continuous Send</string>
+    <string name="label_cb_cont_send_u">Continuous Send U</string>
+    
+    <string name="regdialog_title">Register read write operation</string>
+    <string name="regdialog_msg">Register</string>
+    
+    <string name="progress_sendfile_title">File Being Sent &#8230;</string>
+    <string name="progress_sendfile_msg">Please Wait &#8230;</string>
+    
+    <string name="device_connected">Device Connected</string>
+    <string name="device_disconnected">Device Disconnected</string>
+    <string name="device_removed">Device removed</string>
+    
+    <string name="baudrate_value">Please Enter Valid Baud Rate Value [300 bps - 12 Mbps]</string>
+	<string name="device_connection">Check Device Connection</string>   
+	
+	<string name="register_address">Enter Register Offset</string>
+	<string name="register_value">Enter Register Value</string>
+	<string name="register_write">Write Successful</string>
+	<string name="register_write_error">Write Error</string>
+	
+	<string name="loopback_disabled">Loopback Disabled</string>
+	<string name="loopback_enabled">Loopback Enabled</string>
+	
+</resources>

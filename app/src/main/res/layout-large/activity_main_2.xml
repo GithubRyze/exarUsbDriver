@@ -1,0 +1,423 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="4"
+    >
+    <RelativeLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+      <TextView
+          android:id="@+id/settings"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/text_settings"
+          android:textStyle="bold" />
+        <RelativeLayout
+            android:id="@+id/relative_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+          <TextView
+              android:layout_marginTop="12dp"
+              android:id="@+id/text_channel_sel"
+              android:layout_width="100dp"
+              android:layout_height="36dp"
+              android:gravity="center"
+              android:text="@string/text_channel_bits" />
+          <Spinner
+              android:layout_marginTop="12dp"
+              android:layout_toRightOf="@+id/text_channel_sel"
+              android:id="@+id/spin_channel_sel"
+              android:layout_width="150dp"
+              android:layout_height="36dp"
+              android:entries="@array/channel_bits_array" >
+          </Spinner>
+
+          <TextView
+              android:layout_marginTop="12dp"
+              android:id="@+id/text_baud"
+              android:layout_width="100dp"
+              android:layout_height="36dp"
+              android:layout_below="@id/text_channel_sel"
+              android:gravity="center"
+              android:text="@string/text_baud_rate" />
+          <AutoCompleteTextView
+              android:layout_marginTop="12dp"
+              android:id="@+id/autocomplete_baud"
+              android:layout_width="150dp"
+              android:layout_height="36dp"
+              android:layout_toRightOf="@id/text_baud"
+              android:layout_below="@id/text_channel_sel"
+              android:ems="10"
+              android:imeOptions="actionDone"
+              android:inputType="number"
+              android:maxLength="8"
+              android:singleLine="true"
+              android:text="@string/default_baudrate" >
+
+          </AutoCompleteTextView>
+
+          <TextView
+              android:layout_marginTop="12dp"
+              android:id="@+id/text_data_bits"
+              android:layout_width="100dp"
+              android:layout_height="36dp"
+              android:gravity="center"
+              android:layout_below="@id/text_baud"
+              android:text="@string/text_data_bits" />
+          <Spinner
+              android:layout_marginTop="12dp"
+              android:layout_below="@id/autocomplete_baud"
+              android:id="@+id/spin_data_bits"
+              android:layout_width="150dp"
+              android:layout_height="36dp"
+              android:layout_toRightOf="@+id/text_data_bits"
+              android:entries="@array/data_bits_array" >
+          </Spinner>
+
+          <TextView
+              android:id="@+id/text_parity_bits"
+              android:layout_width="100dp"
+              android:layout_height="36dp"
+              android:layout_alignTop="@+id/spin_channel_sel"
+              android:layout_toEndOf="@+id/spin_channel_sel"
+              android:layout_toRightOf="@+id/spin_channel_sel"
+              android:gravity="center"
+              android:text="@string/text_parity_bits" />
+          <Spinner
+              android:layout_marginTop="12dp"
+              android:id="@+id/spin_parity_bits"
+              android:layout_width="150dp"
+              android:layout_height="36dp"
+              android:layout_toRightOf="@+id/text_parity_bits"
+              android:entries="@array/parity_bits_array" >
+          </Spinner>
+
+          <TextView
+              android:layout_marginTop="12dp"
+              android:id="@+id/text_stop_bits"
+              android:layout_width="100dp"
+              android:layout_height="36dp"
+              android:gravity="center"
+              android:layout_below="@id/text_parity_bits"
+              android:layout_toRightOf="@id/autocomplete_baud"
+              android:text="@string/text_stop_bits" />
+
+          <Spinner
+              android:layout_marginTop="12dp"
+              android:id="@+id/spin_stop_bits"
+              android:layout_width="150dp"
+              android:layout_height="36dp"
+              android:layout_toRightOf="@id/text_stop_bits"
+              android:layout_below="@id/spin_parity_bits"
+              android:entries="@array/stop_bits_array" >
+          </Spinner>
+          <TextView
+              android:layout_marginTop="12dp"
+              android:id="@+id/tv_flow_control"
+              android:layout_width="100dp"
+              android:layout_height="36dp"
+              android:gravity="center"
+              android:layout_below="@id/text_stop_bits"
+              android:layout_toRightOf="@id/autocomplete_baud"
+              android:text="@string/text_flow_control" />
+          <Spinner
+              android:layout_marginTop="12dp"
+              android:layout_toRightOf="@id/tv_flow_control"
+              android:layout_below="@id/text_stop_bits"
+              android:id="@+id/spin_flow_control"
+              android:layout_width="150dp"
+              android:layout_height="36dp"
+              android:entries="@array/flow_control_array" >
+          </Spinner>
+          <CheckBox
+              android:layout_marginLeft="12dp"
+              android:layout_marginTop="12dp"
+              android:layout_below="@id/text_data_bits"
+              android:id="@+id/checkbox_loopback"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/text_loopback" />
+        </RelativeLayout>
+
+      <TextView
+          android:layout_marginTop="16dp"
+          android:layout_below="@+id/relative_setting"
+          android:id="@+id/tv_function"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/text_functions"
+          android:textStyle="bold" />
+      <RelativeLayout
+          android:id="@+id/relative_function"
+          android:padding="16dp"
+          android:layout_below="@+id/tv_function"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent">
+        <ToggleButton
+            android:id="@+id/toggleConnect"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:onClick="onBeginClick"
+            android:textSize="16sp"
+            android:textOff="@string/toggle_connect"
+            android:textOn="@string/toggle_disconnect" />
+
+        <Button
+            android:text="Register"
+            android:id="@+id/btn_register"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_clear_record"
+            android:layout_alignLeft="@+id/btn_clear_record"
+            android:layout_alignStart="@+id/btn_clear_record"
+            android:textSize="16sp" />
+        <Button
+            android:text="Capture"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/btn_capture"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_register"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            />
+
+        <Button
+          android:layout_below="@id/toggleConnect"
+          android:text="FMI Version"
+          android:id="@+id/btn_checkVersion"
+          android:layout_width="120dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:textSize="16sp"
+          />
+
+        <Button
+            android:layout_below="@id/toggleConnect"
+            android:layout_toRightOf="@id/btn_checkVersion"
+            android:text="Delete All"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/btn_clear_record"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            />
+
+        <Button
+            android:layout_below="@id/toggleConnect"
+            android:layout_toRightOf="@id/btn_clear_record"
+            android:text="Close Port"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/btn_close_port"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            />
+
+        <Button
+          android:visibility="invisible"
+          android:layout_below="@id/btn_checkVersion"
+          android:text="Reset Preview"
+          android:id="@+id/btn_reset_preview"
+          android:layout_width="120dp"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:textSize="16sp"
+          />
+
+        <Button
+            android:layout_toRightOf="@id/btn_reset_preview"
+            android:layout_below="@id/btn_checkVersion"
+            android:text="Delete User"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/btn_delete_user"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/et_user_id"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btn_delete_user"
+            android:layout_below="@id/btn_checkVersion"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/btn_delete_user"
+            android:textSize="16sp"
+            android:inputType="number"/>
+
+      </RelativeLayout>
+      <TextView
+          android:id="@+id/tv_led_control"
+          android:layout_marginTop="16dp"
+          android:layout_below="@+id/relative_setting"
+          android:layout_toRightOf="@id/relative_function"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Led Control"
+          android:textStyle="bold" />
+      <LinearLayout
+          android:id="@+id/linear_led_control"
+          android:layout_below="@id/tv_led_control"
+          android:layout_toRightOf="@id/relative_function"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:layout_marginTop="16dp">
+        <CheckBox
+            android:id="@+id/cb_led_off"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="LED OFF" />
+        <CheckBox
+            android:id="@+id/cb_led_level_1"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="LED ON LEVEL 1" />
+        <CheckBox
+            android:id="@+id/cb_led_level_2"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="LED ON LEVEL 2" />
+        <CheckBox
+            android:id="@+id/cb_led_level_3"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="LED ON LEVEL 3" />
+      </LinearLayout>
+
+      <TextView
+          android:layout_marginLeft="8dp"
+          android:id="@+id/tv_face_reg"
+          android:layout_marginTop="16dp"
+          android:layout_below="@+id/relative_setting"
+          android:layout_toRightOf="@id/linear_led_control"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Auto Face Recognition"
+          android:textStyle="bold" />
+      <LinearLayout
+          android:layout_marginLeft="8dp"
+          android:layout_below="@id/tv_led_control"
+          android:layout_toRightOf="@id/linear_led_control"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:layout_marginTop="16dp">
+        <CheckBox
+            android:id="@+id/cb_face_on"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="Enable" />
+        <CheckBox
+            android:id="@+id/cb_face_off"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="Disable" />
+      </LinearLayout>
+
+    </RelativeLayout>
+
+
+  <LinearLayout
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_weight="1"
+      android:orientation="vertical"
+      >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+      <TextView
+          android:id="@+id/text_receive"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="8dp"
+          android:layout_marginTop="10dp"
+          android:text="SEND"
+          android:textStyle="bold" />
+        <CheckBox
+            android:layout_alignParentRight="true"
+            android:id="@+id/hex_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/hex_output" />
+
+      </RelativeLayout>
+    <ScrollView
+        android:id="@+id/scroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+         >
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/tvMonitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""/>
+    </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/text_receive"
+            android:textStyle="bold" />
+        <CheckBox
+            android:layout_alignParentRight="true"
+            android:id="@+id/hex_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/hex_output" />
+      </RelativeLayout>
+    <ScrollView
+        android:id="@+id/scrollerRight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        >
+        <TextView
+            android:id="@+id/tvMonitorRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_marginLeft="5dp" />
+    </ScrollView>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

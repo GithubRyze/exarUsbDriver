@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "from": {
+                        "startLines": "6,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "200,258",
+                        "endColumns": "57,47",
+                        "endOffsets": "253,301"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,47",
+                        "endOffsets": "108,156"
+                    }
+                }
+            ]
+        }
+    ]
+}

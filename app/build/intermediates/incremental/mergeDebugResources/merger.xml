@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="E:\android_studio_project\ExarUSB\app\src\main\res"/><source path="E:\android_studio_project\ExarUSB\app\build\generated\res\rs\debug"/><source path="E:\android_studio_project\ExarUSB\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="E:\android_studio_project\ExarUSB\app\src\main\res"><file name="ic_file" path="E:\android_studio_project\ExarUSB\app\src\main\res\drawable-hdpi\ic_file.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_folder" path="E:\android_studio_project\ExarUSB\app\src\main\res\drawable-hdpi\ic_folder.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\android_studio_project\ExarUSB\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="logo" path="E:\android_studio_project\ExarUSB\app\src\main\res\drawable-hdpi\logo.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_file" path="E:\android_studio_project\ExarUSB\app\src\main\res\drawable-mdpi\ic_file.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_folder" path="E:\android_studio_project\ExarUSB\app\src\main\res\drawable-mdpi\ic_folder.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\android_studio_project\ExarUSB\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_file" path="E:\android_studio_project\ExarUSB\app\src\main\res\drawable-xhdpi\ic_file.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_folder" path="E:\android_studio_project\ExarUSB\app\src\main\res\drawable-xhdpi\ic_folder.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\android_studio_project\ExarUSB\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="E:\android_studio_project\ExarUSB\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_main" path="E:\android_studio_project\ExarUSB\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file name="fc_activity_file_chooser" path="E:\android_studio_project\ExarUSB\app\src\main\res\layout\fc_activity_file_chooser.xml" qualifiers="" type="layout"/><file name="fc_item_file_list" path="E:\android_studio_project\ExarUSB\app\src\main\res\layout\fc_item_file_list.xml" qualifiers="" type="layout"/><file name="reg_dialog" path="E:\android_studio_project\ExarUSB\app\src\main\res\layout\reg_dialog.xml" qualifiers="" type="layout"/><file name="activity_main" path="E:\android_studio_project\ExarUSB\app\src\main\res\layout-large\activity_main.xml" qualifiers="large-v4" type="layout"/><file name="activity_main" path="E:\android_studio_project\ExarUSB\app\src\main\res\layout-xlarge\activity_main.xml" qualifiers="xlarge-v4" type="layout"/><file name="main" path="E:\android_studio_project\ExarUSB\app\src\main\res\menu\main.xml" qualifiers="" type="menu"/><file path="E:\android_studio_project\ExarUSB\app\src\main\res\values\array.xml" qualifiers=""><string-array name="baud_array">
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>1800</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+        <item>500000</item>
+        <item>576000</item>
+        <item>921600</item>
+        <item>1000000</item>
+        <item>1152000</item>
+        <item>1500000</item>
+        <item>2000000</item>
+        <item>2500000</item>
+        <item>3000000</item>
+        <item>3500000</item>
+        <item>4000000</item>
+        <item>12000000</item>
+    </string-array><string-array name="data_bits_array">
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array><string-array name="parity_bits_array">
+        <item>None</item>
+        <item>Odd</item>
+        <item>Even</item>
+        <item>Mark</item>
+        <item>Space</item>
+    </string-array><string-array name="stop_bits_array">
+        <item>1</item>
+        <item>2</item>
+    </string-array><string-array name="channel_bits_array">
+        <item>COM1</item>
+        <item>COM2</item>
+        <item>COM3</item>
+        <item>COM4</item>
+    </string-array><string-array name="low_latency_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array><string-array name="flow_control_array">
+        <item>None</item>
+        <item>Hardware</item>
+        <item>Software</item>
+        <item>RS-485 Half-Duplex</item>
+    </string-array></file><file path="E:\android_studio_project\ExarUSB\app\src\main\res\values\color.xml" qualifiers=""><color name="white">#FFFFFF</color><color name="yellow">#FFFF00</color><color name="fuchsia">#FF00FF</color><color name="red">#FF0000</color><color name="silver">#C0C0C0</color><color name="gray">#808080</color><color name="olive">#808000</color><color name="purple">#800080</color><color name="maroon">#800000</color><color name="aqua">#00FFFF</color><color name="lime">#00FF00</color><color name="teal">#008080</color><color name="green">#008000</color><color name="blue">#0000FF</color><color name="navy">#000080</color><color name="blue1">#0786FF</color><color name="blue2">#CCC6FF</color><color name="orange">#FF701C</color><color name="black">#000000</color></file><file path="E:\android_studio_project\ExarUSB\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="list_item_padding">6dp</dimen></file><file path="E:\android_studio_project\ExarUSB\app\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">USB UART(VER .1D)</string><string name="menu_sendfile">Send File</string><string name="menu_regwrite">Register Read/Write</string><string name="menu_regread">Register Read</string><string name="menu_about">About EXAR</string><string name="hello_world">Hello world!</string><string name="radio_fc_off">Off</string><string name="radio_fc_on">On</string><string name="desc">Logo</string><string name="desc1">Folder</string><string name="text_title">USB UART</string><string name="text_settings">SETTINGS</string><string name="text_baud_rate">Baud Rate</string><string name="text_data_bits">Data Bits</string><string name="text_parity_bits">Parity Bits</string><string name="text_stop_bits">Stop Bits</string><string name="text_channel_bits">Serial Port</string><string name="text_low_latency">Low Latency</string><string name="text_flow_control">Flow Control</string><string name="text_loopback">Loopback</string><string name="toggle_connect">Connect</string><string name="toggle_disconnect">Disconnect</string><string name="toggle_start">Start Tx</string><string name="toggle_stop">Stop Tx</string><string name="button_write">Send</string><string name="edit_text">Exar USB UART Test</string><string name="button_run">Run</string><string name="button_read">Receive</string><string name="text_functions">FUNCTIONS</string><string name="text_device_info">DEVICE INFO</string><string name="text_console">SENT</string><string name="text_receive">RECEIVED</string><string name="hex_output">Hex Mode</string><string name="default_baudrate">115200</string><string name="dialog_confirm">Exit</string><string name="dialog_cancel">Cancel</string><string name="dialog_title">EXAR USB UART</string><string name="dialog_desc">Exit Exar UART Test Application?</string><string name="fc_back_button_description">Step back</string><string name="fc_home_button_description">Step back</string><string name="fc_close_button_description">Step back</string><string name="fc_file_icon_description">Item icon</string><string name="label_rb_regwrite">Write</string><string name="label_rb_regread">Read</string><string name="label_btn_regrw">Select</string><string name="hint_edittext_offset">Offset</string><string name="hint_edittext_value">Value</string><string name="label_cb_cont_send">Continuous Send</string><string name="label_cb_cont_send_u">Continuous Send U</string><string name="regdialog_title">Register read write operation</string><string name="regdialog_msg">Register</string><string name="progress_sendfile_title">File Being Sent …</string><string name="progress_sendfile_msg">Please Wait …</string><string name="device_connected">Device Connected</string><string name="device_disconnected">Device Disconnected</string><string name="device_removed">Device removed</string><string name="baudrate_value">Please Enter Valid Baud Rate Value [300 bps - 12 Mbps]</string><string name="device_connection">Check Device Connection</string><string name="register_address">Enter Register Offset</string><string name="register_value">Enter Register Value</string><string name="register_write">Write Successful</string><string name="register_write_error">Write Error</string><string name="loopback_disabled">Loopback Disabled</string><string name="loopback_enabled">Loopback Enabled</string></file><file path="E:\android_studio_project\ExarUSB\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppBaseTheme" parent="android:Theme.Light">
+        
+    </style><style name="AppTheme" parent="AppBaseTheme">
+        
+    </style><style name="fileSelectName">
+        <item name="android:layout_marginLeft">@dimen/list_item_padding</item>
+        <item name="android:layout_marginRight">@dimen/list_item_padding</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">18sp</item>
+    </style><style name="fileSelectIcon">
+        <item name="android:layout_marginLeft">@dimen/list_item_padding</item>
+	</style></file><file path="E:\android_studio_project\ExarUSB\app\src\main\res\values-sw600dp\dimens.xml" qualifiers="sw600dp-v13"><dimen name="activity_horizontal_margin">60dp</dimen><dimen name="list_item_padding">6dp</dimen></file><file path="E:\android_studio_project\ExarUSB\app\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">80dp</dimen><dimen name="list_item_padding">6dp</dimen></file><file path="E:\android_studio_project\ExarUSB\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        
+    </style></file><file path="E:\android_studio_project\ExarUSB\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        
+    </style></file><file name="device_filter" path="E:\android_studio_project\ExarUSB\app\src\main\res\xml\device_filter.xml" qualifiers="" type="xml"/><file name="activity_main_2" path="E:\android_studio_project\ExarUSB\app\src\main\res\layout-large\activity_main_2.xml" qualifiers="large-v4" type="layout"/></source><source path="E:\android_studio_project\ExarUSB\app\build\generated\res\rs\debug"/><source path="E:\android_studio_project\ExarUSB\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="E:\android_studio_project\ExarUSB\app\src\debug\res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="E:\android_studio_project\ExarUSB\app\src\debug\res"/></dataSet><mergedItems/></merger>

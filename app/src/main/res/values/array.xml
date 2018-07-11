@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="baud_array">
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>1800</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+        <item>500000</item>
+        <item>576000</item>
+        <item>921600</item>
+        <item>1000000</item>
+        <item>1152000</item>
+        <item>1500000</item>
+        <item>2000000</item>
+        <item>2500000</item>
+        <item>3000000</item>
+        <item>3500000</item>
+        <item>4000000</item>
+        <item>12000000</item>
+    </string-array>
+    <string-array name="data_bits_array">
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="parity_bits_array">
+        <item>None</item>
+        <item>Odd</item>
+        <item>Even</item>
+        <item>Mark</item>
+        <item>Space</item>
+    </string-array>
+    <string-array name="stop_bits_array">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="channel_bits_array">
+        <item>COM1</item>
+        <item>COM2</item>
+        <item>COM3</item>
+        <item>COM4</item>
+    </string-array>
+    <string-array name="low_latency_array">
+        <item>Off</item>
+        <item>On</item>
+    </string-array>
+    <string-array name="flow_control_array">
+        <item>None</item>
+        <item>Hardware</item>
+        <item>Software</item>
+        <item>RS-485 Half-Duplex</item>
+    </string-array>
+
+</resources>

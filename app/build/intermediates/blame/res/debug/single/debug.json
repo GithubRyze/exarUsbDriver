@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\xml_device_filter.xml.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\xml\\device_filter.xml"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\layout_reg_dialog.xml.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\layout\\reg_dialog.xml"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo.png.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_folder.png.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\drawable-mdpi\\ic_folder.png"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_folder.png.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\drawable-hdpi\\ic_folder.png"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_folder.png.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\drawable-xhdpi\\ic_folder.png"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_file.png.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\drawable-mdpi\\ic_file.png"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_file.png.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\drawable-xhdpi\\ic_file.png"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\layout_fc_item_file_list.xml.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\layout\\fc_item_file_list.xml"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_activity_main.xml.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\layout-xlarge\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\layout_fc_activity_file_chooser.xml.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\layout\\fc_activity_file_chooser.xml"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_file.png.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\drawable-hdpi\\ic_file.png"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_activity_main.xml.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\layout-large\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\android_studio_project\\ExarUSB\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_activity_main_2.xml.flat",
+        "source": "E:\\android_studio_project\\ExarUSB\\app\\src\\main\\res\\layout-large\\activity_main_2.xml"
+    }
+]
